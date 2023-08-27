@@ -1,0 +1,5 @@
+#O(N)
+N = int(input())
+L = set(map(int,input().split()))
+I = set(range(min(L),min(L)+N+1))
+print(next(iter(I-L)))
